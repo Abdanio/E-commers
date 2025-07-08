@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produk - Toko Samsul Collection</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #f7f7f7;
+      }
+      header {
+        background-color: crimson;
+        padding: 20px 0;
+        text-align: center;
+        color: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      }
+      .badan {
+        max-width: 1200px;
+        margin: 30px auto;
+        padding: 0 16px;
+      }
+      .badan h2 {
+        margin-bottom: 24px;
+        font-size: 2rem;
+        color: #333;
+        text-align: center;
+      }
+      .produk-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 24px;
+      }
+      .list-produk {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+        padding: 18px 16px 20px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.15s;
+      }
+      .list-produk:hover {
+        transform: translateY(-5px) scale(1.03);
+        box-shadow: 0 6px 20px rgba(220, 20, 60, 0.13);
+      }
+      .list-produk img {
+        width: 100%;
+        max-width: 220px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 16px;
+      }
+      .list-produk h4 {
+        margin: 0 0 8px 0;
+        font-size: 1.1rem;
+        color: #222;
+        text-align: center;
+      }
+      .list-produk h5 {
+        margin: 0 0 16px 0;
+        color: #c0392b;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+      }
+      .tombol {
+        display: inline-block;
+        padding: 8px 18px;
+        margin: 4px 6px 0 6px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 0.98rem;
+        font-weight: 500;
+        transition: background 0.2s, color 0.2s;
+        cursor: pointer;
+      }
+      .tombol-detail {
+        background: #fff;
+        color: crimson;
+        border: 1.5px solid crimson;
+      }
+      .tombol-detail:hover {
+        background: crimson;
+        color: #fff;
+      }
+      .tombol-beli {
+        background: crimson;
+        color: #fff;
+        border: 1.5px solid crimson;
+      }
+      .tombol-beli:hover {
+        background: #fff;
+        color: crimson;
+      }
+      @media (max-width: 600px) {
+        .badan h2 {
+          font-size: 1.3rem;
+        }
+        .list-produk img {
+          height: 130px;
+        }
+      }
+      .back-link {
+        display: inline-block;
+        margin-bottom: 18px;
+        color: crimson;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+        border: 1px solid crimson;
+        border-radius: 6px;
+        padding: 6px 16px;
+        transition: background 0.2s, color 0.2s;
+      }
+      .back-link:hover {
+        background: crimson;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="margin: 0; font-size: 32px">Toko Samsul Collection</h1>
+    </header>
+    <div class="badan">
+      <a href="index.html" class="back-link">&larr; Kembali ke Beranda</a>
+      <h2>Produk Baru</h2>
+      <div class="produk-container">
+        <!-- Produk 1 -->
+        <div class="list-produk">
+          <img
+            src="jaketparasutpolos.png"
+            alt="Jaket Parasut"
+          />
+          <h4>Jaket Parasut Polos</h4>
+          <h5>Rp 150.000,-</h5>
+          <a class="tombol tombol-detail" href="#">Detail</a>
+          <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+        <!-- Produk 2 -->
+        <div class="list-produk">
+          <img
+            src="jakettacticalhitam.png"
+            alt="Jaket Tactical"
+          />
+          <h4>Jaket Tactical Hitam</h4>
+          <h5>Rp 230.000,-</h5>
+          <a class="tombol tombol-detail" href="#">Detail</a>
+          <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+        <!-- Produk 3 -->
+        <div class="list-produk">
+          <img
+            src="jaketbomberstylish.png"
+            alt="Jaket Bomber Stylish"
+          />
+          <h4>Jaket Bomber Stylish</h4>
+          <h5>Rp 250.000,-</h5>
+          <a class="tombol tombol-detail" href="#">Detail</a>
+          <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
