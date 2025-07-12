@@ -1,47 +1,41 @@
-<body>
-  <!-- Header toko -->
-  <header style="background-color: crimson; padding: 15px 0; text-align: center; color: #fff;">
-    <h1 style="margin: 0; font-size: 32px;">Toko Samsul Collection</h1>
-  </header>
+# 🧥 E-Commers-1 - Website Toko Jaket
 
-  <div class="badan">
-    <h2>Produk Baru</h2>
-    <div class="produk-container">
-      <!-- Produk 1 -->
-      <div class="list-produk">
-        <img src="https://images.unsplash.com/photo-1602810313331-30ac5c43d1f1?w=400" alt="Jaket Parasut" />
-        <h4>Jaket Parasut Polos</h4>
-        <h5>Rp 150.000,-</h5>
-        <a class="tombol tombol-detail" href="#">Detail</a>
-        <a class="tombol tombol-beli" href="#">Beli</a>
-      </div>
+Sebuah proyek sederhana website toko online untuk **Toko Samsul Collection**, yang menampilkan koleksi jaket stylish dan berkualitas. Website ini dibuat menggunakan HTML dan CSS murni tanpa framework.
 
-      <!-- Produk 2 -->
-      <div class="list-produk">
-        <img src="https://images.unsplash.com/photo-1602810313333-c74d63e1f4b6?w=400" alt="Jaket Tactical" />
-        <h4>Jaket Tactical Hitam</h4>
-        <h5>Rp 230.000,-</h5>
-        <a class="tombol tombol-detail" href="#">Detail</a>
-        <a class="tombol tombol-beli" href="#">Beli</a>
-      </div>
+## 📂 Struktur Proyek
 
-      <!-- Produk 3 -->
-      <div class="list-produk">
-        <img src="https://images.unsplash.com/photo-1542060748-10c28b62716d?w=400" alt="Jaket Bomber Stylish" />
-        <h4>Jaket Bomber Stylish</h4>
-        <h5>Rp 250.000,-</h5>
-        <a class="tombol tombol-detail" href="#">Detail</a>
-        <a class="tombol tombol-beli" href="#">Beli</a>
-      </div>
+```
 
-      <!-- Produk 4 -->
-      <div class="list-produk">
-        <img src="https://images.unsplash.com/photo-1610382243514-b8cdee7c42fc?w=400" alt="Jaket Naruto" />
-        <h4>Jaket Naruto</h4>
-        <h5>Rp 170.000,-</h5>
-        <a class="tombol tombol-detail" href="#">Detail</a>
-        <a class="tombol tombol-beli" href="#">Beli</a>
-      </div>
-    </div>
-  </div>
-</body>
+E-Commers-1/
+├── images/
+│   ├── jaketbombershitam.png
+│   ├── jaketparasuttosca.png
+│   └── jakettacticalhitam.png
+├── index.html
+├── product.html
+└── README.md
+
+````
+
+### 📄 File & Folder Penjelasan
+
+- **`index.html`**: Halaman utama yang menampilkan sambutan dan pengantar toko.
+- **`product.html`**: Halaman daftar produk jaket yang tersedia.
+- **`images/`**: Folder berisi gambar produk jaket.
+  - `jaketbombershitam.png`
+  - `jaketparasuttosca.png`
+  - `jakettacticalhitam.png`
+- **`README.md`**: File dokumentasi proyek ini.
+
+## 🎯 Fitur Utama
+
+- Menampilkan halaman depan toko dengan informasi sambutan.
+- Tautan ke halaman produk.
+- Tampilan responsif pada lebar layar kecil (media query CSS).
+- Gambar produk dimasukkan dalam direktori `images`.
+
+## 🛠️ Teknologi yang Digunakan
+
+- HTML5
+- CSS3 (Media Query untuk mobile layout)
+- Visual Studio Code sebagai editor
